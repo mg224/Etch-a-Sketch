@@ -1,0 +1,32 @@
+.content {
+    font-family: 'Roboto', Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+.grid-pixel {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+#new-grid-button {
+    background-color: lightcoral;
+    color: navy;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
