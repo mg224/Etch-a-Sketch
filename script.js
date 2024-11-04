@@ -5,7 +5,7 @@ function getRandomColor() {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
-function createGrid (numberOfPixels) {
+function createGrid(numberOfPixels) {
     const container = document.querySelector('.container');
     container.innerHTML = '';
     
