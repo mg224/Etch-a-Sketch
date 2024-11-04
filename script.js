@@ -28,7 +28,7 @@ function createGrid(numberOfPixels) {
 document.getElementById('new-grid-button').addEventListener('click', () => {
     let gridSize = parseInt(prompt("Enter the number of squares per side for the new grid (between 1-100):"))
 
-    if (gridSize < 1 || !Number.isInteger(gridSize)) {
+    if (gridSize < 1 || !Number.isInteger(gridSize) || gridSize > 100) {
         alert("Please enter a valid integer between 1-100.");
     }
     else {    
